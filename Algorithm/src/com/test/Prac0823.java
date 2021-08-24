@@ -1,5 +1,7 @@
 package com.test;
 
+import java.util.Scanner;
+
 public class Prac0823 {
 
 	/*
@@ -12,10 +14,27 @@ public class Prac0823 {
 		현재 상근이가 설정한 알람 시각이 주어졌을 때, 창영이의 방법을 사용한다면, 이를 언제로 고쳐야 하는지 구하는 프로그램을 작성하시오.
 	*/
 	
-	public static void main(String[] args) {
-		
+		public static void main(String[] args) {
+	
+			Scanner in = new Scanner(System.in);
+			
+			int H = in.nextInt();	// 시
+			int M = in.nextInt(); 	// 분
+			in.close();
+			
+			if(M < 45) {
+				H--;				// 시(hour) 1 감소
+				M= 60 - (45 - M); 	// 분(min) 감소
+				if(H < 0) {
+					H = 23;
+				}
+				System.out.println(H + " " + M);
+			}
+			else {
+				System.out.println(H + " " + (M - 45));
+			}
+		}
 		
 	}
 	
 	
-}
