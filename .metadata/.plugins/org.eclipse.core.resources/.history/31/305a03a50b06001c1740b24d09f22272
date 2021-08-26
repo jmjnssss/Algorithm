@@ -1,7 +1,5 @@
 package com.test;
 
-import java.util.Scanner;
-
 public class Prac0825 {
 	
 	/*
@@ -16,29 +14,8 @@ public class Prac0825 {
 		A, B, C가 주어졌을 때, 손익분기점을 구하는 프로그램을 작성하시오.
 	 
 	 */
-	
 	public static void main(String[] args) {
 		
-		Scanner in = new Scanner(System.in);
-		 
-		 
-		int A = in.nextInt();	// 불변 비용
-		int B = in.nextInt();	// 가변 비용
-		int C = in.nextInt(); 	// 상품 가격
-        
-		if (C <= B) {
-			System.out.println("-1");
-		} 
-		else {
-			System.out.println((A/(C-B))+1);
-		}
 	}
 
 }
-
-
-
-
-
-
-
