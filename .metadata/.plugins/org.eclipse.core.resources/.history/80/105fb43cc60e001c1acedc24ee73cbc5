@@ -68,6 +68,6 @@ public class Prac0827 {
 		}
 		
 		
-		return result;
+		return 0;
 	}
 }

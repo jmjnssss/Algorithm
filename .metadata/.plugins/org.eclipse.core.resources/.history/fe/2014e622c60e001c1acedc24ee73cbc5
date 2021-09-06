@@ -39,7 +39,7 @@ public class Prac0827 {
 		
 	}
 
-	private static int search(int[] arr, int N, int M) {
+	private static int search(int[] arr, int n, int m) {
 		int result = 0;
 		 
 		// 3개를 고르기 때문에 첫번째 카드는 N - 2 까지만 순회
@@ -68,6 +68,6 @@ public class Prac0827 {
 		}
 		
 		
-		return result;
+		return 0;
 	}
 }
