@@ -1,7 +1,5 @@
 package com.test;
 
-import java.util.Scanner;
-
 public class Prac0912 {
 	
 	/*
@@ -18,25 +16,17 @@ public class Prac0912 {
 	*/	
 	
 	public static void main(String[] args) {
-		
 	    Scanner in = new Scanner(System.in);
-        int N, M, sum = 0, max = 0, score;
-        double avg = 0;
-        N = in.nextInt();
-        
-        for(int i=0;i<N;i++){
-        	
-	        	score = in.nextInt();
-	            sum = sum + score;
-	            
-	            if(max<score) {
-	            	
-	            	max=score; 
+        int N,M,sum=0,max = 0,score;
+        double avg=0;
+        N=in.nextInt();
+        for(int i=0;i<N;i++) {
+            score=in.nextInt();
+            sum=sum+score;
+            if(max<score) {max=score; }
             
-            }
         }
-	        
-	        avg = (double) sum * 100 / max / N;
-	        System.out.println(avg);
+        avg=(double)sum*100/max/N;
+        System.out.println(avg);
 	}
 }

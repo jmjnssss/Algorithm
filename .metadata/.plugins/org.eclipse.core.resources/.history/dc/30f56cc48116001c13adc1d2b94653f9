@@ -18,7 +18,6 @@ public class Prac0912 {
 	*/	
 	
 	public static void main(String[] args) {
-		
 	    Scanner in = new Scanner(System.in);
         int N, M, sum = 0, max = 0, score;
         double avg = 0;
