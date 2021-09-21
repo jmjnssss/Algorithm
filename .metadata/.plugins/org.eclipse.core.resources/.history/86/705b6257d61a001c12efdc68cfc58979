@@ -1,12 +1,12 @@
 package com.test;
 
-public class Prac0914 {
-
+public class Prac0920 {
+	
 	/*
 		백준 번()
-
-
-	*/	
+		
+	
+	 */	
 	
 	public static void main(String[] args) {
 		
