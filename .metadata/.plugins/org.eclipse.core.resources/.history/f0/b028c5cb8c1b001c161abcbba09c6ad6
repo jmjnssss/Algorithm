@@ -15,7 +15,6 @@ public class Prac0918 {
 	 */	
 	
 	public static void main(String[] args) {
-		
 		Scanner in = new Scanner(System.in);
         
 		int x = in.nextInt();
@@ -28,7 +27,5 @@ public class Prac0918 {
         
 		// x와 y축 최소거리 중 가장 작은 값
 		System.out.println(Math.min(x_min, y_min));
-		
-		
 	}
 }
