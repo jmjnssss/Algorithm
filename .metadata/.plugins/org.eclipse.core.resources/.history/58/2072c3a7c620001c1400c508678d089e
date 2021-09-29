@@ -1,14 +1,17 @@
 package com.test;
 
-public class Prac0920 {
+public class Prac0929 {
 	
 	/*
-		백준 번()
-		
+		백준 5009번(유치원)
+				
 	
+
+
 	 */	
 	
 	public static void main(String[] args) {
+		
 		
 	}
 }
