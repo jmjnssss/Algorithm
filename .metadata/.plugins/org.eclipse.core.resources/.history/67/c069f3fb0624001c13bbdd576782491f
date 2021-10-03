@@ -1,13 +1,12 @@
 package com.test;
 
-import java.util.Scanner;
-
-public class Prac0925 {
+public class Prac1003 {
 	
 	/*
-		백준 5543번(상근날드)
+		백준 번()
+				
 		
-	
+
 	 */	
 	
 	public static void main(String[] args) {
