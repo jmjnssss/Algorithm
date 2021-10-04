@@ -1,7 +1,5 @@
 package com.test;
 
-import java.util.Scanner;
-
 public class Prac1003 {
 	
 	/*
@@ -17,8 +15,7 @@ public class Prac1003 {
 	 */	
 	
 	public static void main(String[] args) {
-	      	
-		Scanner sc = new Scanner(System.in);
+	      Scanner sc = new Scanner(System.in);
 	        
 	        int price = sc.nextInt();
 	        int sum = 0;
@@ -31,6 +28,8 @@ public class Prac1003 {
 	        
 	        System.out.println(price - sum);
 
+
+	출처: https://mozzioi.tistory.com/118 [이준생의 하루]
 		
 	}
 }
